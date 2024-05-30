@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(24, 182, 3);
+    background-color: darkslategrey;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -26,8 +26,17 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
 h1 {
     font-family: 'Jersey 10', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(24, 182, 3);
 }
 /* Main Content */
 main {
