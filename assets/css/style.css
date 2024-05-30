@@ -20,6 +20,10 @@ body {
 header {
     background-color: rgb(24, 182, 3);
 }
+
+h1 {
+    font-family: 'Jersey 10', sans-serif;
+}
 /* Main Content */
 main {
     background-color: black;
