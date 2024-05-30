@@ -29,7 +29,20 @@ header {
 header a {
     text-decoration: none;
     color: white;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid rgb(24, 182, 3);
 }
 
 h1 {
