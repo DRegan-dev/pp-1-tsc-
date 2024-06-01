@@ -85,8 +85,18 @@ main {
     margin-top: 40px;
 }
 /* Footer */
-footer {
-    background-color: aqua;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(24, 182, 3);
 }
 
 /* Media Query: tablets and larger (768px and up) */
