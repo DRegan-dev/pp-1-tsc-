@@ -138,16 +138,25 @@ main {
 
 .benefit-box {
     background-color: #191970;
-    height: 400px;
+    height: 350px;
     padding: 20px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px 10px;
     flex: 1 0 30%;
     text-align: center;
 }
 
 .benefit-box h3 {
     font-size: 150%;
+    font-family: "Phudu", sans-serif;
+    margin-bottom: 10px;
+}
+
+.benefit-icons {
+    color: rgb(24, 182, 3);
+    font-size: 150%;
+    margin-top: 15px;
+    justify-content: flex-end;
 }
 
 /* Footer */
