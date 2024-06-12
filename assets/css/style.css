@@ -116,7 +116,7 @@ main {
  /* Reasons to join section */
 
 #reasons {
-    background-color: black;
+    background-image: linear-gradient(black, darkblue, lightcyan, darkblue, black);
     width: 100%
 }
 
@@ -130,6 +130,7 @@ main {
 
 .benefit-box {
     background-color: #191970;
+    height: 400px;
     padding: 20px;
     border-radius: 5px;
     margin: 10px;
