@@ -107,10 +107,14 @@ main {
     padding-left: 20px;
  }
 
+ #cover-text h2 {
+    font-size: 240%;
+ }
+
  #cover-text > h3 {
     font-family: 'Phudu', sans-serif;
     /* font-size: 110%; */
-    color: lightgreen;
+    color: cyan;
  }
 
  /* Reasons to join section */
@@ -118,6 +122,10 @@ main {
 #reasons {
     background-image: linear-gradient(black, darkblue, lightcyan, darkblue, black);
     width: 100%
+}
+
+#reasons h2 {
+    font-size: 240%;
 }
 
 #benefits {
@@ -136,6 +144,10 @@ main {
     margin: 10px;
     flex: 1 0 30%;
     text-align: center;
+}
+
+.benefit-box h3 {
+    font-size: 10%;
 }
 
 /* Footer */
