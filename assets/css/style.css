@@ -176,6 +176,53 @@ hr {
     font-size: 240%;
 }
 
+/* Social Events Section */
+
+#sightings {
+    background-color: black;
+}
+
+#sightings h2 {
+    font-size: 240%;
+    text-align: center;
+}
+
+#events {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    height: 200px;
+    line-height: 16px;
+    width: 50%;
+}
+
+.text-content h3 {
+    margin: 8px 0;
+    font-size: 180%;
+}
+
+.text-content p {
+    margin-top: 10px;
+    font-size: 110%;
+}
+
+.rave-image {
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+}
+
+
+.retreat-image {
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
