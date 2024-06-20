@@ -35,7 +35,40 @@
         </nav>
     </header>
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" id="signup-form" method="POST">
+                <h2>We come in peace</h2>
+
+                <label for="first-name">First Name: </label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+
+                <label for="last-name">Last Name: </label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+
+                <label for="email-address">Email Address: </label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="interdimensional">Interdimensional</label>
+                        <input type="radio" name="alien-origin" id="interdimensional" value="interdimensional">
+
+                        <label for="extra-temporal">Extra-Temporal</label>
+                        <input type="radio" name="alien-origin" id="extra-temporal" value="extra-temmporal">
+
+                        <label for="extra-terrestrial">Extra-Terrestrial</label>
+                        <input type="radio" name="alien-origin" id="extra-terrestrial" value="extra-terrestrial">
+
+                        <label for="all">All of the above</label>
+                        <input type="radio" name="alien-origin" id="all" value="all">
+
+                        <button type="submit" class="join-button">Join Us!</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
