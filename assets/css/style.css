@@ -179,7 +179,21 @@ hr {
 /* Social Events Section */
 
 #sightings {
-    background-color: black;
+    background-image: linear-gradient(-45deg, #23a6d5, #000300, #23a6d5, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #sightings h2 {
@@ -192,6 +206,7 @@ hr {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    background-color: transparent;
 }
 
 .text-content {
@@ -199,33 +214,53 @@ hr {
     line-height: 16px;
     width: 50%;
     text-align: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     margin: 20px 0;
 }
 
 .text-content h3 {
     margin: 8px 0;
     font-size: 180%;
+    font-family: 'Phudu', sans-serif;
 }
 
 .text-content p {
     margin-top: 10px;
     font-size: 110%;
+    font-family: 'Phudu', sans-serif;
 
 }
 
-.rave-image {
+.button-box {
+    margin: auto;
+}
+
+.button-link {
+    border: 1px solid #fff;
+    border-radius:  5px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    align-self: flex-end;
+
+}
+
+.button-link:hover {
+    background-color: #fff;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.rave-image, .retreat-image {
     background-color: blue;
     width: 50%;
     height: 200px;
 }
 
 
-.retreat-image {
-    background-color: blue;
-    width: 50%;
-    height: 200px;
-}
 
 /* Footer */
 #social-networks {
