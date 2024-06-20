@@ -198,6 +198,9 @@ hr {
     height: 200px;
     line-height: 16px;
     width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .text-content h3 {
@@ -208,6 +211,7 @@ hr {
 .text-content p {
     margin-top: 10px;
     font-size: 110%;
+
 }
 
 .rave-image {
