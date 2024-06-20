@@ -265,12 +265,18 @@ hr {
 
 /* Gallery page */
 #pictures img {
-    width: 100%;
-    line-height: 1em;
+    flex: 1 0 33%;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+
 }
 
 #pictures {
     line-height: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -288,6 +294,16 @@ hr {
     font-size: 160%;
     padding: 5%;
     color: rgb(24, 182, 3);
+}
+
+
+/* Media Query: large or landscape phones (576px and up */
+@media screen and (min-width: 576px) {
+    #pictures {
+        column-count: 2;
+        column-gap: 0;
+
+    }
 }
 
 /* Media Query: tablets and larger (768px and up) */
@@ -329,11 +345,19 @@ hr {
         left: 100px;
         bottom: 25%;
     }
+
+    #pictures {
+        column-count: 3;
+    }
     
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid rgb(24, 182, 3); 
+    }
+
+    #pictures {
+        column-count: 4;
     }
 }
