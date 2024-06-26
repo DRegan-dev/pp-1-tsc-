@@ -289,7 +289,44 @@ main {
 }
 
 #signup {
-    
+    background-color: #191970;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#signup-form {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50%;
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: green;
 }
 
 
