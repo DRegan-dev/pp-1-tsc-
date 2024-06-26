@@ -289,20 +289,23 @@ main {
 }
 
 #signup {
-    background-color: #191970;
-    height: 100vh;
+    background-image: url("../images/alien-meditating.JPG");
     background-size: cover;
-
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    height: 100vh;    
 }
 
 #signup-form {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     padding: 30px;
+    margin-top: 100px
 }
 
 #signup-form>h2 {
     margin-bottom: 20px;
+    font-size: 200%;
 }
 
 .text-input {
@@ -313,6 +316,7 @@ main {
     border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
+    color: #fafafa;
 }
 
 .radio-buttons {
@@ -327,6 +331,8 @@ main {
     padding: 15px 32px;
     font-size: 100%;
     background-color: green;
+    color: #fafafa;
+    margin-right: auto;
 }
 
 
