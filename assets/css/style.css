@@ -226,7 +226,7 @@ hr {
 
 .text-content h3 {
     margin: 8px 0;
-    font-size: 180%;
+    font-size: 170%;
     font-family: 'Phudu', sans-serif;
 }
 
@@ -234,6 +234,7 @@ hr {
     margin-top: 10px;
     font-size: 110%;
     font-family: 'Phudu', sans-serif;
+    color: #fafafa;
 
 }
 
