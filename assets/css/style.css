@@ -441,7 +441,7 @@ main {
     #cover-text {
         width: 300px;
         left: 100px;
-        bottom: 25%;
+        bottom: 20%;
     }
 
     #events {
@@ -528,5 +528,11 @@ main {
 
     #pictures {
         column-count: 4;
+    }
+
+    #cover-text {
+        width: 300px;
+        left: 100px;
+        bottom: 30%;
     }
 }
